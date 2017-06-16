@@ -1,0 +1,29 @@
+* {
+	font-size: 30px;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+}
+.list li {
+	list-style: none;
+	background-color: gray;
+	padding: 5px;
+	margin: 5px;
+}
+.list li:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.list li button {
+	float: right;
+}
+.list li.passed {
+	text-decoration: line-through;
+	opacity: .5;
+}
+.hide {
+	display: none;
+}
